@@ -21,4 +21,10 @@ USB C PD 3.1 has a EPR (Extended Power Range) specification that allows up to 24
 
 # Software used
 
-KiCAD 8.0, as well as a little bit of Fusion 360 for a locking mechanism for
+KiCAD 8.0, as well as a little bit of Fusion 360 for a locking mechanism for the USB C connections.
+
+# The Rest of the Story
+
+At the time of writing this (2025/02/13) this project consists of the KiCAD files and a Fusion 360 object.  To take it further, I will need to aquire an RP2350B, and get the PCB made.  Partial assembly by the fab house might get done, especially if it makes aquasition of some of the parts easier.
+
+I'm trying to make this as compatible as possible with the PicoBOB-DLX, but the firmware from that for Remora and GRBLHal will not work because I have changed some of the pins.  As time permits, I will create projects for the firmwares.  I might even see if uCNC can be ported.
